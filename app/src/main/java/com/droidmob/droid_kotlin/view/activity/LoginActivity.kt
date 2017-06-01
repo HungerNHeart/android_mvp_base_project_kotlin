@@ -8,7 +8,8 @@ import com.droidmob.droid_kotlin.presenter.LoginPresenter
 import com.droidmob.droid_kotlin.view.iview.ILoginView
 import kotlinx.android.synthetic.main.activity_login.*
 
-//I
+//If we want to inhert the properties of a class. We need to include class ChildClass: ParentClass()
+//Incase of interface class YourClassName: interfaceName
 class LoginActivity : BaseActivity(), ILoginView,View.OnClickListener {
 
     //The keyword var defines the variable will be Mutable(changeable).
